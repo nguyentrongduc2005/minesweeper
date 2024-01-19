@@ -7,7 +7,7 @@
 #define click 3
 
 #define MoO 4
-#define enter 5
+
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED

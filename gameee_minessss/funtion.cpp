@@ -625,7 +625,7 @@ void dieuKienConTro()
 			case 13://enter
 				if (Trang == 1)
 				{
-					Amthanh(enter);
+					Amthanh(click);
 					//so trang 1
 					if (viTriChon == 0)
 					{
@@ -649,7 +649,7 @@ void dieuKienConTro()
 				}
 				if (Trang == 2)
 				{
-					Amthanh(enter);
+					Amthanh(click);
 					//so trang 2
 					if (viTriChon == 0)
 					{
@@ -678,7 +678,7 @@ void dieuKienConTro()
 				}
 				if (Trang == 4)
 				{
-					Amthanh(enter);
+					Amthanh(click);
 					if (viTriChon == 0)
 					{
 						viTriChon = 0;
