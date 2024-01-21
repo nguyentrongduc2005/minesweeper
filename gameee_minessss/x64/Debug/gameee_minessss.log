@@ -1,3 +1,2 @@
-﻿  funtion.cpp
-D:\bài_tap_lon\gameee_minessss\gameee_minessss\funtion.cpp(165,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  main.cpp
   gameee_minessss.vcxproj -> D:\bài_tap_lon\gameee_minessss\x64\Debug\gameee_minessss.exe

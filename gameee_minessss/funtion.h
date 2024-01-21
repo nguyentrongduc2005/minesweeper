@@ -22,4 +22,5 @@ void veTieuDe();
 void Menu1( short muc, short vitrichon); //trang 1
 void Menu2(short muc, short vitrichon); //trang 2
 void Menu4(short muc, short vitrichon);//trang 4
+void Menu5();//trang 5
 			// trang 3 la play game

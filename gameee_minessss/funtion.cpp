@@ -485,6 +485,83 @@ void Menu4(short muc, short vitrichon)
 	
 
 }
+void Menu5()
+{
+
+
+		veTieuDe();
+		Tao_mau_o(26, 5, 3, 0, "W");
+		Tao_mau_o(2, 6, 7, 0, "+ cac phim di chuyen: ");
+		Tao_mau_o(24, 6, 3, 0, "A S D");
+
+		Tao_mau_o(2, 8, 7, 0, "+ phim chon muc: ");
+		Tao_mau_o(24, 8, 3, 0, "EnTer");
+
+		Tao_mau_o(2, 10, 7, 0, "+ phim thoat: ");
+		Tao_mau_o(24, 10, 3, 0, "ESC");
+
+		Tao_mau_o(2, 12, 7, 0, "+ phim mo O: ");
+		Tao_mau_o(24, 12, 3, 0, "O");
+		Tao_mau_o(2, 14, 7, 0, "+ phim cam co: ");
+		Tao_mau_o(24, 14, 3, 0, "P");
+		Tao_mau_o(67, 5, 6, 0, "cac o trong game");
+		int X = 62;
+		Tao_mau_o(X, 9, 3, 15, "1 ");
+		Tao_mau_o(X+4, 9, 9, 15, "2 ");
+		Tao_mau_o(X+ 8,9 , 1, 15, "3 ");
+		Tao_mau_o(X+ 12, 9, 5, 15, "5 ");
+		Tao_mau_o(X +16, 9, 6, 15, "6 ");
+		Tao_mau_o(X+20, 9, 12, 15, "7 ");
+		Tao_mau_o(X+24,9 , 4, 15, "8 ");
+
+		Tao_mau_o(X, 12, 0, 4, "* ");
+		Tao_mau_o(X+4, 12, 1, 14, "P ");
+		Tao_mau_o(X+8, 12, 4, 14, "P ");
+		Tao_mau_o(X + 12, 12, 10, 14, "P ");
+		setBackgroundColor(0);
+		for (int i = 7; i <= 16; i++)
+		{
+			setColor(4);
+			gotoXY(50, i);
+			cout << char(179);
+		}
+		gotoXY(50, 6);
+		cout << char(218);
+		for (int i = 51; i < 100; i++)
+		{
+			setColor(4);
+			gotoXY(i, 6);
+			cout << char(196);
+		}
+		gotoXY(100, 6);
+		cout << char(191);
+		for (int i = 7; i <= 16; i++)
+		{
+			setColor(4);
+			gotoXY(100, i);
+			cout << char(179);
+		}
+
+		setColor(4);
+		gotoXY(100, 16);
+		cout << char(217);
+		setColor(4);
+		gotoXY(50, 16);
+		cout << char(192);
+		for (int i = 51; i < 100; i++)
+		{
+			setColor(4);
+			gotoXY(i, 16);
+			cout << char(196);
+		}
+
+		gotoXY(100, 6);
+		cout << char(191);
+
+		
+
+	
+}
 
 
 void dieuKienConTro()
@@ -637,6 +714,9 @@ void dieuKienConTro()
 					}
 					if (viTriChon == 1)
 					{
+						deleteRow(4, 20);
+						Menu5();
+						Trang = 5;
 						break;
 					}
 					if (viTriChon == 2)
@@ -720,8 +800,12 @@ void dieuKienConTro()
 					xoaMang2Chieud();
 					exit(0);
 					break;
-
-
+				case 5:
+					TrangThai = false;
+					viTriChon = 0;
+					Trang = 1;
+					deleteRow(0, 30);
+					Menu1(3, viTriChon);
 				}
 
 			}
