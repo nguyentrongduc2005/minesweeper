@@ -518,6 +518,9 @@ void Menu5()
 		Tao_mau_o(X+4, 12, 1, 14, "P ");
 		Tao_mau_o(X+8, 12, 4, 14, "P ");
 		Tao_mau_o(X + 12, 12, 10, 14, "P ");
+		Tao_mau_o(X+16,12, 0, 7, "  ");
+		Tao_mau_o(X+20, 12, 0, 8, "  ");
+		Tao_mau_o(X+24, 12, 0, 11, "  ");
 		setBackgroundColor(0);
 		for (int i = 7; i <= 16; i++)
 		{
