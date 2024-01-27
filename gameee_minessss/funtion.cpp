@@ -488,7 +488,7 @@ void Menu4(short muc, short vitrichon)
 void Menu5()
 {
 
-
+	
 		veTieuDe();
 		Tao_mau_o(26, 5, 3, 0, "W");
 		Tao_mau_o(2, 6, 7, 0, "+ cac phim di chuyen: ");
@@ -524,6 +524,7 @@ void Menu5()
 		setBackgroundColor(0);
 		for (int i = 7; i <= 16; i++)
 		{
+		
 			setColor(4);
 			gotoXY(50, i);
 			cout << char(179);
@@ -532,6 +533,7 @@ void Menu5()
 		cout << char(218);
 		for (int i = 51; i < 100; i++)
 		{
+			
 			setColor(4);
 			gotoXY(i, 6);
 			cout << char(196);
@@ -540,6 +542,7 @@ void Menu5()
 		cout << char(191);
 		for (int i = 7; i <= 16; i++)
 		{
+			
 			setColor(4);
 			gotoXY(100, i);
 			cout << char(179);
@@ -553,6 +556,7 @@ void Menu5()
 		cout << char(192);
 		for (int i = 51; i < 100; i++)
 		{
+			
 			setColor(4);
 			gotoXY(i, 16);
 			cout << char(196);
